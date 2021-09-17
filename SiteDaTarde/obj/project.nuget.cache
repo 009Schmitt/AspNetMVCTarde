@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "23Q2umpGzscfCKYwJqnoXsa3AbVYXfYpANqNGaTI2YiT1KXJnj4EqdcJWU5ccNwNAGOx1BzEYIGaogDkx1H4sw==",
+  "dgSpecHash": "7I2gOrqz+C7uoNZ+gvzOjMYPKTC+b/T5WMSZny5nM2QN5Tt3+ptOoLS6P3E0OVXBJyXxRmjCHfrL7EEP8WrtFQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\victor.schmitt\\source\\repos\\SiteDaTarde\\SiteDaTarde.csproj",
+  "projectFilePath": "C:\\Users\\victor.schmitt\\Documents\\GitHub\\AspNetMVCTarde\\SiteDaTarde\\SiteDaTarde.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\victor.schmitt\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\victor.schmitt\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

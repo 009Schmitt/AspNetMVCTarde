@@ -6238,11 +6238,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\victor.schmitt\\source\\repos\\SiteDaTarde\\SiteDaTarde.csproj",
+      "projectUniqueName": "C:\\Users\\victor.schmitt\\Documents\\GitHub\\AspNetMVCTarde\\SiteDaTarde\\SiteDaTarde.csproj",
       "projectName": "SiteDaTarde",
-      "projectPath": "C:\\Users\\victor.schmitt\\source\\repos\\SiteDaTarde\\SiteDaTarde.csproj",
+      "projectPath": "C:\\Users\\victor.schmitt\\Documents\\GitHub\\AspNetMVCTarde\\SiteDaTarde\\SiteDaTarde.csproj",
       "packagesPath": "C:\\Users\\victor.schmitt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\victor.schmitt\\source\\repos\\SiteDaTarde\\obj\\",
+      "outputPath": "C:\\Users\\victor.schmitt\\Documents\\GitHub\\AspNetMVCTarde\\SiteDaTarde\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

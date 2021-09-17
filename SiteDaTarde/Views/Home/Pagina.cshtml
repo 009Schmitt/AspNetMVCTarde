@@ -7,6 +7,9 @@
 <h1>Pagina</h1>
 
 
+@*<img style="background-image:url(/wwwroot/Images/Anonymous.png)"></img>*@
+@*<img src="~/Images/Anonymous.png" />*@
+
 <div>
     <label>Aperte o Butao</label>
     <button onclick="alert('@DateTime.Now')"> Hora Certa </button>
@@ -28,7 +31,7 @@
         <label>Senha : </label>
         <input type="password" name="password" />
         <br />
-        <input type="submit" name="Entrar"/>
+        <input type="submit" name="Entrar" style="color:red;background-color:blue" />
     </form>
 </div>
 <br />
@@ -42,4 +45,5 @@
     <label>@Model.IsDocil</label>
     <br />
 </div>
-
+<div style="background-image:url('Anonymous.png');">
+</div>
