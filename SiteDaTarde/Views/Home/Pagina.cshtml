@@ -1,0 +1,45 @@
+﻿@model SiteDaTarde.Models.Cachorro
+
+@{
+    ViewData["Title"] = "Pagina";
+}
+
+<h1>Pagina</h1>
+
+
+<div>
+    <label>Aperte o Butao</label>
+    <button onclick="alert('@DateTime.Now')"> Hora Certa </button>
+    <br />
+    <p><a href="https://Google.com">Vai pro google</a>...confia</p>
+    <br />
+    <div>
+        <label>@ViewData["Nome"]</label>
+        <label>@ViewData["Idade"]</label>
+        <label>@ViewBag.Cpf</label>
+        <label>@ViewBag.Rg</label>
+    </div>
+</div>
+<div>
+    <form action="~/Home/AuthLogin" method="post">
+        <label>Login : </label>
+        <input type="text" name="user" value="login" />
+        <br />
+        <label>Senha : </label>
+        <input type="password" name="password" />
+        <br />
+        <input type="submit" name="Entrar"/>
+    </form>
+</div>
+<br />
+<div>
+    <label>@Model.Nome</label>
+    <br />
+    <label>@Model.NomeDoDono</label>
+    <br />
+    <label>@Model.Idade</label>
+    <br />
+    <label>@Model.IsDocil</label>
+    <br />
+</div>
+
