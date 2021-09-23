@@ -1,0 +1,22 @@
+﻿@model DAL.Response
+
+@{
+    ViewData["Title"] = "CadastroUsuario";
+}
+
+<h1>CadastroUsuario</h1>
+
+
+<div>
+    <label>@Model.ErrorMessage</label>
+    <form action="~/Home/AuthCadastro" method="post">
+        <label>Nome De Usuario</label>
+        <input type="text" name="nomeUsuario" />
+        <br />
+        <label>Senha Do Usuario</label>
+        <input type="password" name="senha" />
+        <br />
+        <input type="submit" value="Confirmar" />
+    </form>
+</div>
+

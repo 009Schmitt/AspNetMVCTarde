@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BAL;
+using DAL;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using SiteDaTarde.Models;
 using System;
@@ -11,11 +13,13 @@ namespace SiteDaTarde.Controllers
 {
     public class HomeController : Controller
     {
+        private Response res;
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
+            res = new Response();
         }
 
         public IActionResult Index()
@@ -48,15 +52,15 @@ namespace SiteDaTarde.Controllers
         }
 
         [HttpPost]
-        public IActionResult AuthLogin(string user,string password)
+        public IActionResult AuthLogin(string user, string password)
         {
-            if(user == "Admin" && password == "Juquinha")
+            if (user == "Admin" && password == "Juquinha")
             {
-                return RedirectToAction("LoginEfetuado","Home");
+                return RedirectToAction("LoginEfetuado", "Home");
             }
             else
             {
-                return RedirectToAction("Pagina","Home");
+                return RedirectToAction("Pagina", "Home");
             }
         }
 
@@ -64,6 +68,34 @@ namespace SiteDaTarde.Controllers
         {
             return View();
         }
+
+        public IActionResult CadastroUsuario()
+        {
+            //Response res = new Response { ErrorMessage = " "};
+            return View(res);
+        }
+
+        [HttpPost]
+        public IActionResult AuthCadastro(string nomeUsuario, string senha)
+        {
+            Usuario user = new Usuario
+            {
+                NomeDeUsuario = nomeUsuario,
+                Senha = senha
+            };
+            res = UsuarioBAL.Insert(user);
+            if (res.Executed)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            else 
+            {
+                //ViewData["ErrorLog"] = res.ErrorMessage;
+                //ViewBag.Error = res.ErrorMessage;
+                return RedirectToAction("CadastroUsuario", "Home");
+            }
+        }
+
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

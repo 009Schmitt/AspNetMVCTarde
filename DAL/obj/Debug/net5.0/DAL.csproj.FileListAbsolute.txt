@@ -1,0 +1,12 @@
+C:\Users\victor.schmitt\Documents\GitHub\AspNetMVCTarde\DAL\bin\Debug\net5.0\DAL.deps.json
+C:\Users\victor.schmitt\Documents\GitHub\AspNetMVCTarde\DAL\bin\Debug\net5.0\DAL.dll
+C:\Users\victor.schmitt\Documents\GitHub\AspNetMVCTarde\DAL\bin\Debug\net5.0\ref\DAL.dll
+C:\Users\victor.schmitt\Documents\GitHub\AspNetMVCTarde\DAL\bin\Debug\net5.0\DAL.pdb
+C:\Users\victor.schmitt\Documents\GitHub\AspNetMVCTarde\DAL\obj\Debug\net5.0\DAL.csproj.AssemblyReference.cache
+C:\Users\victor.schmitt\Documents\GitHub\AspNetMVCTarde\DAL\obj\Debug\net5.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victor.schmitt\Documents\GitHub\AspNetMVCTarde\DAL\obj\Debug\net5.0\DAL.AssemblyInfoInputs.cache
+C:\Users\victor.schmitt\Documents\GitHub\AspNetMVCTarde\DAL\obj\Debug\net5.0\DAL.AssemblyInfo.cs
+C:\Users\victor.schmitt\Documents\GitHub\AspNetMVCTarde\DAL\obj\Debug\net5.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\victor.schmitt\Documents\GitHub\AspNetMVCTarde\DAL\obj\Debug\net5.0\DAL.dll
+C:\Users\victor.schmitt\Documents\GitHub\AspNetMVCTarde\DAL\obj\Debug\net5.0\ref\DAL.dll
+C:\Users\victor.schmitt\Documents\GitHub\AspNetMVCTarde\DAL\obj\Debug\net5.0\DAL.pdb
